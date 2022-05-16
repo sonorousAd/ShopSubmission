@@ -23,7 +23,6 @@ export default class Appr extends React.Component{
     const inp = document.getElementById('textarea');
     //call function to store user input in array
     this.UpdatePrompts(inp);
-    const key = process.env.REACT_APP_OPENAIKEY;
     console.log(key)
     // Here we make the API calls
     const data = {
@@ -39,7 +38,7 @@ export default class Appr extends React.Component{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer `+ key,
+        Authorization: `Bearer `+ process.env.REACT_APP_OPENAIKEY,
       },
       body: JSON.stringify(data),
      });
