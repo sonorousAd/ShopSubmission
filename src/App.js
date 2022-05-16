@@ -39,7 +39,7 @@ export default class Appr extends React.Component{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify(data),
      });
