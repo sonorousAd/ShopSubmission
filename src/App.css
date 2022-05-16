@@ -1,0 +1,51 @@
+
+.title{
+    margin-left: 71vh;
+    font-size: 30px;
+}
+#response-title{
+    margin-top: 8vh;
+}
+#form{
+    margin-left: 71vh;
+    width:72vh;
+}
+#textarea{
+    width: 70vh;
+    height: 30vh;
+    border-radius: 10px;
+    padding: 1vh;
+}
+#submit-btn{
+    float: right;  
+    border: none; 
+    height: 5vh; 
+    width: 12vh;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#submit-btn:hover{
+    background-color: bisque; 
+    height: 5.5vh;  
+}
+#test{
+    background-color: aliceblue;
+}
+#presets-title{
+    margin-left: 71vh;
+}
+#presets-btn{
+    position: absolute;
+    margin-left: 0.5vh;  
+    border: none; 
+    height: 5vh; 
+    width: 12vh;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#presets-btn:hover{
+    background-color: bisque; 
+    height: 5.5vh;  
+}

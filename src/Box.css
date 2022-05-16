@@ -1,0 +1,18 @@
+#box{
+    background-color: aliceblue;
+    margin-left: 71vh;
+    width:70vh;
+    color: black;
+    font-size: 19px;
+    padding-left: 1vh;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 3vh;
+}
+.box-prints{
+    font-weight: bold;
+    
+}
+#prompt-div{
+    margin-bottom: 2vh;
+}
