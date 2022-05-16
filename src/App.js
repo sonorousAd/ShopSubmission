@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Box from './Box'
 export default class Appr extends React.Component{
-
  state={
     //this array will contain all the prompts entered by the user
     prmpts:[],
@@ -24,7 +23,8 @@ export default class Appr extends React.Component{
     const inp = document.getElementById('textarea');
     //call function to store user input in array
     this.UpdatePrompts(inp);
-    
+    const key = process.env.REACT_APP_OPENAIKEY;
+    console.log(key)
     // Here we make the API calls
     const data = {
       //here we make the call with the user's input 
@@ -39,7 +39,7 @@ export default class Appr extends React.Component{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer `+ key,
       },
       body: JSON.stringify(data),
      });
