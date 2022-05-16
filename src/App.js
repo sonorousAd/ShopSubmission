@@ -23,7 +23,6 @@ export default class Appr extends React.Component{
     const inp = document.getElementById('textarea');
     //call function to store user input in array
     this.UpdatePrompts(inp);
-    console.log(key)
     // Here we make the API calls
     const data = {
       //here we make the call with the user's input 
