@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Box from './Box'
-require('dotenv').config();
+import Box from './Box';
+
 export default class Appr extends React.Component{
  state={
     //this array will contain all the prompts entered by the user
@@ -38,7 +38,7 @@ export default class Appr extends React.Component{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: process.env.REACT_APP_OPENAIKEY,
+        Authorization: process.env.REACT_APP_APIKEY
       },
       body: JSON.stringify(data),
      });
