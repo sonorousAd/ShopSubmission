@@ -1,0 +1,12 @@
+body{
+    background-color:black;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+#title{
+    color: antiquewhite;
+    margin-left: 81vh;
+    margin-top: 3vh;
+    font-size: 58px;
+    margin-bottom: -0.5vh;
+}
