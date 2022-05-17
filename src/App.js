@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Box from './Box'
+require('dotenv').config();
 export default class Appr extends React.Component{
  state={
     //this array will contain all the prompts entered by the user
