@@ -62,7 +62,7 @@ export default class Appr extends React.Component{
             id="textarea">
           </textarea>
           <br/>
-          <input type="button" id="presets-btn" value="Presets"/>
+          {/* <input type="button" id="presets-btn" value="Presets"/> */}
           <input type="button" id="submit-btn" value="Submit" onClick={this.fun1.bind(this)} />
       </div>
       {/* A map function will be used to iterate thorough both arrays, output array is iterated using the 'i'
