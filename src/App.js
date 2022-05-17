@@ -20,6 +20,7 @@ export default class Appr extends React.Component{
 
   //This is the function that will be triggered by the Submit button
   async fun1(){
+    const ky = ('Bearer '+ process.env.REACT_APP_OPENAI);
     //Here we handel the input by the user 
     const inp = document.getElementById('textarea');
     //call function to store user input in array
@@ -38,7 +39,7 @@ export default class Appr extends React.Component{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: ('Bearer'+ process.env.REACT_APP_OPENAI)
+        Authorization: ky,
       },
       body: JSON.stringify(data),
      });
