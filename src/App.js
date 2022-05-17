@@ -21,7 +21,7 @@ export default class Appr extends React.Component{
   //This is the function that will be triggered by the Submit button
   async fun1(){
 
-    console.log(process.env.REACT_APP_OPENAI)
+    console.log("test" + process.env.REACT_APP_OPENAI)
 
     //Here we handel the input by the user 
     const inp = document.getElementById('textarea');
