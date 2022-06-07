@@ -1,4 +1,4 @@
-# OpenAI React app API
+# OpenAI React app
 This React Application fetches API data based on user input and displays it in order.
 
 Webpage (https://sonorousad.github.io/ShopSubmission/) is built using React.
